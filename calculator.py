@@ -1,7 +1,7 @@
 print("calculator program")
 print("Add:1,sub:2,mul:3,div:4")
-num1=int(input("enter number1:"))
-num2=int(input("enter number2:"))
+num1=float(input("enter number1:"))
+num2=float(input("enter number2:"))
 choice=input("enter your choice(1,2,3,4):")
 if (choice==1):
   ans=num1+num2
