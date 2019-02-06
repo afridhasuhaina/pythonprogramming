@@ -1,5 +1,7 @@
 ch=input()
-if((ch =="a" or ch=="A" )or (ch=="z"or ch=="Z")):
+if(ch >='a'):
+  print("Alphabet")
+elif(ch >='A'):
   print("Alphabet")
 else:
   print("No")
