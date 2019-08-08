@@ -1,4 +1,4 @@
-a=input()
-b=input()
+a=int(input())
+b=int(input())
 result=a**b
 print(result)
